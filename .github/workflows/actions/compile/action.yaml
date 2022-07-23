@@ -1,0 +1,5 @@
+name: "ensure_compile_and_run"
+description: "Ensure the project builds and runs"
+runs:
+  using: docker
+  image: ../../../../dockerfiles/compile/Dockerfile
